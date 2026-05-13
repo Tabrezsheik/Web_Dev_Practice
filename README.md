@@ -25,6 +25,6 @@ This repo tracks my hands-on practice as I learn web development from scratch.
 - [] JavaScript - Arrays
 - [] JavaScript - Object Literals
 - [] JavaScript - Functions (Basics)
-- [ ] Loops
+- [] Loops
 - [ ] DOM
 - [ ] Events
