@@ -21,7 +21,7 @@ This repo tracks my hands-on practice as I learn web development from scratch.
 ## Progress
 
 - [ ] HTML & CSS basics
-- [ ] JavaScript - Variables, Conditionals
+- [x] JavaScript - Variables, Conditionals
 - [ ] JavaScript - Arrays
 - [ ] JavaScript - Object Literals
 - [ ] JavaScript - Functions (Basics)
