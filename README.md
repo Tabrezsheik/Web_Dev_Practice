@@ -23,7 +23,7 @@ This repo tracks my hands-on practice as I learn web development from scratch.
 - [ ] HTML & CSS basics
 - [x] JavaScript - Variables, Conditionals
 - [x] JavaScript - Arrays
-- [ ] JavaScript - Object Literals
+- [x] JavaScript - Object Literals
 - [ ] JavaScript - Functions (Basics)
 - [ ] Loops
 - [ ] DOM
