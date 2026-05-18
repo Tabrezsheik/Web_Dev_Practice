@@ -29,7 +29,7 @@ let iplTeams = [
 
 
 // Displaying the top 3 IPL teams and their playing 11
-console.log("Top 3 Most Followed IPL Teams and their Playing 11:");
+console.log("Top 3 Most Followed IPL Teams :");
 console.log(` ${iplTeams[0].name} - Followers: ${iplTeams[0].followers} \n ${iplTeams[1].name} - Followers: ${iplTeams[1].followers} \n ${iplTeams[2].name} - Followers: ${iplTeams[2].followers}
               `);
 
