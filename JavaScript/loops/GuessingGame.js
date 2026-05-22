@@ -1,7 +1,7 @@
 let maximum = parseInt(prompt("Enter the maximum number for the guessing game:"));
 
 
-while(isNaN(maximum)){
+while(!maximum){
     maximum = parseInt(prompt("Enter a valid number for the maximum:"));
     
 }
