@@ -31,9 +31,3 @@ This repo tracks my hands-on practice as I learn web development from scratch.
 - ✅ JavaScript - Object Literals
 - ✅ JavaScript - Functions (Basics)
 - ✅ JavaScript - Loops
-
-## Language Composition
-
-- JavaScript: 43.4%
-- CSS: 36.2%
-- HTML: 20.4%
