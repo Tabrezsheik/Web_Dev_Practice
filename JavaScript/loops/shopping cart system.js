@@ -14,7 +14,7 @@ for (let i of cart){
 console.log(`\nTotal Price: ${totalPrice}`);
 
 //expensive items
-let expensiveitems = [0];
+let expensiveitems = [];
 for(let i = 0; i < cart.length; i++){
     if(cart[i].price > expensiveitems){
         expensiveitems = cart[i].price;
@@ -23,10 +23,15 @@ for(let i = 0; i < cart.length; i++){
 }
 console.log(`\nMost Expensive Item Price: ${expensiveitems}`);
 console.log(`total items in cart : ${cart.length}`);
-let leastExpensiveItem = [0];
+let leastExpensiveItem = Infinity;
+let cheapitem;
 
-console.log(`\n cheap product under 1000`);
-for (let product of cart){
- if(product.price < 1000)
- console.log(`Item: ${product.item}, Price: ${product.price}`);
+
+console.log(`\n cheap product`);
+for (i =0; i < cart.length; i++){
+ if(cart[i].price < leastExpensiveItem){
+    leastExpensiveItem = cart[i].price;
+    cheapitem = cart[i].item;
+    }
 }
+console.log(`Least Expensive Item: ${cheapitem}, Price: ${leastExpensiveItem}`);
