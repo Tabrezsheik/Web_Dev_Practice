@@ -24,7 +24,7 @@ This repo tracks my hands-on practice as I learn web development from scratch.
 - [x] JavaScript - Variables, Conditionals
 - [x] JavaScript - Arrays
 - [x] JavaScript - Object Literals
-- [ ] JavaScript - Functions (Basics)
+- [X] JavaScript - Functions (Basics)
 - [ ] Loops
 - [ ] DOM
 - [ ] Events
