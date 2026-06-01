@@ -6,13 +6,14 @@ Practice files from The Web Developer Bootcamp by Colt Steele (Udemy).
 
 ```
 Web_Dev_Practice/
-├── HTML+CSS/
+├── HTML/
 └── JavaScript/
-    ├── Arrays/
-    ├── Functions/
-    ├── Functions-Callbacks-and-Higher-Order/
-    ├── Loops/
-    └── ObjectLiterals/
+    ├── 01_Variables_Conditionals/
+    ├── 02_Array/
+    ├── 03_Object_Literals/
+    ├── 04_Loops/
+    ├── 05_Basic_Function/
+    └── 06_Array_Callbacks/
 ```
 
 ## About
