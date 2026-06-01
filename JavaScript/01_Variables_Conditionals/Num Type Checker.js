@@ -1,7 +1,8 @@
-const value = 42;
-
-if (typeof value === 'number') {
-  console.log('It is a number');
+let num = parseInt(prompt("Enter a number:"));
+if(num > 0 ) {
+    console.log(`${num} is a positive number.`);
+} else if(num < 0) {
+    console.log(`${num} is a negative number.`);
 } else {
-  console.log('It is not a number');
+    console.log(`${num} is zero.`);
 }
