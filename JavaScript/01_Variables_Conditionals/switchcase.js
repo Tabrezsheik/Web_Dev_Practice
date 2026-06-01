@@ -1,30 +1,24 @@
-const day = 3;
-let dayName;
-
-switch(day) {
-  case 1:
-    dayName = 'Monday';
-    break;
-  case 2:
-    dayName = 'Tuesday';
-    break;
-  case 3:
-    dayName = 'Wednesday';
-    break;
-  case 4:
-    dayName = 'Thursday';
-    break;
-  case 5:
-    dayName = 'Friday';
-    break;
-  case 6:
-    dayName = 'Saturday';
-    break;
-  case 7:
-    dayName = 'Sunday';
-    break;
-  default:
-    dayName = 'Invalid day';
-}
-
-console.log(dayName);
+let num1 = parseFloat(prompt("Enter the first number:"));
+let num2 = parseFloat(prompt("Enter the second number:"));
+let operator = prompt("Enter the operator (+, -, *, /):");
+switch (operator) {
+    case "+":
+        console.log(num1 + num2);
+        break;
+    case "-":
+        console.log(num1 - num2);   
+        break;
+    case "*":
+        console.log(num1 * num2);
+        break;
+    case "/":
+        if (num2 !== 0) {
+            console.log(num1 / num2);
+        } else {
+            console.log("Error: Division by zero is not allowed.");
+        }  
+        break;
+    default:
+        console.log("Invalid operator. Please use +, -, *, or /.");
+        break;
+}  
