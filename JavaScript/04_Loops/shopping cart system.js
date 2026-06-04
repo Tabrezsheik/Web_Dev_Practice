@@ -1,14 +1,35 @@
-const cart = [
-  { item: 'Apple', price: 1.5, quantity: 3 },
-  { item: 'Banana', price: 0.5, quantity: 6 },
-  { item: 'Orange', price: 2, quantity: 2 }
+const cart =[
+    { item :"laptop", price : 50000},
+    { item :"mouse", price : 900},
+     { item : "keyboard", price : 2000},
+    { item : "headphones", price : 1500},
+    { item : "monitor", price : 25000}
+
 ];
+let totalPrice = 0;
+for (let i of cart){
+    console.log(` items : ${i.item} and price :${i.price}`);
+    totalPrice += i.price;
+}
+console.log(`\nTotal Price: ${totalPrice}`);
 
-let total = 0;
-cart.forEach(product => {
-  const cost = product.price * product.quantity;
-  total += cost;
-  console.log(`${product.item}: $${cost}`);
-});
+//expensive items
+let expensiveitems = 0;
+for(let i = 0; i < cart.length; i++){
+    if(cart[i].price > expensiveitems){
+        expensiveitems = cart[i].price;
+    }
 
-console.log(`Total: $${total}`);
+}
+console.log(`\nMost Expensive Item Price: ${expensiveitems}`);
+console.log(`total items in cart : ${cart.length}`);
+let leastExpensiveItem = Infinity;
+
+console.log(`\n cheap products in cart : `);
+for (let product of cart) {
+ if(product.price <  leastExpensiveItem) {
+    leastExpensiveItem = product.price ;
+     
+ }
+}
+console.log(`\nLeast Expensive Item Price: ${leastExpensiveItem}`);
