@@ -1,6 +1,10 @@
-function getLastElement(arr) {
-  return arr[arr.length - 1];
+function Lastele(arr){
+    if(arr.length === 0){
+        return null;
+    }
+    return arr[arr.length -1];
 }
 
-const numbers = [1, 2, 3, 4, 5];
-console.log(getLastElement(numbers));
+console.log(Lastele([1,2,3,4,5])); // Output: 5
+console.log(Lastele([])); // Output: null
+console.log(Lastele("hello")); // Output: 'o'
