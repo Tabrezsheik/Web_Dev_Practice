@@ -1,9 +1,11 @@
-const person = {
-  name: 'John',
-  age: 30,
-  greet: function() {
-    console.log(`Hello, I'm ${this.name} and I'm ${this.age} years old`);
-  }
-};
+const employee = {
+    name: 'Tabrez Sheik',
+    position: 'Software Engineer',
+    salary: 50000,
+    bonus(amt){
+        let total = this.salary + amt;   // this refers to the employee object or this refres to the current object which is employee
+        console.log(`Total compensation for ${this.name} is: ${total}`);
 
-person.greet();
+    }
+};
+employee.bonus(10000);
