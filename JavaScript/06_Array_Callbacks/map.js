@@ -1,7 +1,15 @@
-const numbers = [1, 2, 3, 4, 5];
 
-const doubled = numbers.map(num => num * 2);
-const squared = numbers.map(num => num * num);
+//map : The map() method creates a new array and adds values or elements to it according to a provided function.
+const movies = [
+  { title: 'The Shawshank Redemption', year: 1994 ,rating: 93},
+  { title: 'The Pursuit of Happyness', year: 2006 ,rating: 80},
+  { title: 'The Dark Knight', year: 2008 ,rating: 90},
 
-console.log('Doubled:', doubled);
-console.log('Squared:', squared);
+];
+
+const movieTitles = movies.map(movie => movie.title);
+const movieRatings = movies.map(movie => movie.rating / 10);
+console.log('MOVIE TITLES AND RATINGS\n'); 
+for (let i = 0; i < movieRatings.length; i++) {
+console.log(`${movieTitles[i]}: ${movieRatings[i]}`);
+} 
