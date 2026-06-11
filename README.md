@@ -33,4 +33,5 @@ This repo tracks my hands-on practice as I learn web development from scratch.
 - ✅ JavaScript - Object Literals
 - ✅ JavaScript - Functions (Basics)
 - ✅ JavaScript - Loops
+- ✅ JavaScript - Newer Features
 
