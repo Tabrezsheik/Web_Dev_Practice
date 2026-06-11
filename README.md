@@ -13,7 +13,8 @@ Web_Dev_Practice/
     ├── 03_Object_Literals/
     ├── 04_Loops/
     ├── 05_Basic_Function/
-    └── 06_Array_Callbacks/
+    ├── 06_Array_Callbacks/
+    └── 07_NewerFeatures/
 ```
 
 ## About
@@ -32,3 +33,4 @@ This repo tracks my hands-on practice as I learn web development from scratch.
 - ✅ JavaScript - Object Literals
 - ✅ JavaScript - Functions (Basics)
 - ✅ JavaScript - Loops
+
