@@ -6,7 +6,7 @@ Practice files from The Web Developer Bootcamp by Colt Steele (Udemy).
 
 ```
 Web_Dev_Practice/
-├── HTML/
+├── HTML + CSS/
 └── JavaScript/
     ├── 01_Variables_Conditionals/
     ├── 02_Array/
