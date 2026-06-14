@@ -42,9 +42,7 @@ header h1 {
     position: absolute;
     color: rgb(18, 195, 234);
     background-color: rgb(101, 255, 234);
-    ;
     border-radius: 5px;
-    /* top: 100%; */
     bottom: 0%;
     left: 0;
     height: 0%;
