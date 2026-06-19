@@ -1,3 +1,5 @@
+//player1
+
 let random_num1 = Math.floor(Math.random()*6)+1;
 
 let random_img1 = `images/dice${random_num1}.png`;
