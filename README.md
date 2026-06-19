@@ -14,7 +14,8 @@ Web_Dev_Practice/
     ├── 04_Loops/
     ├── 05_Basic_Function/
     ├── 06_Array_Callbacks/
-    └── 07_NewerFeatures/
+    ├── 07_NewerFeatures/
+    └── 08_Dom/
 ```
 
 ## About
