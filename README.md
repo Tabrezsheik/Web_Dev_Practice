@@ -35,4 +35,5 @@ This repo tracks my hands-on practice as I learn web development from scratch.
 - ✅ JavaScript - Functions (Basics)
 - ✅ JavaScript - Loops
 - ✅ JavaScript - Newer Features
+- ✅ JavaScript - DOM
 
