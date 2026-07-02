@@ -15,7 +15,8 @@ Web_Dev_Practice/
     ├── 05_Basic_Function/
     ├── 06_Array_Callbacks/
     ├── 07_NewerFeatures/
-    └── 08_Dom/
+    ├── 08_Dom/
+    └── 09_Events/
 ```
 
 ## About
@@ -36,4 +37,5 @@ This repo tracks my hands-on practice as I learn web development from scratch.
 - ✅ JavaScript - Loops
 - ✅ JavaScript - Newer Features
 - ✅ JavaScript - DOM
+- ✅ JavaScript - Events
 
