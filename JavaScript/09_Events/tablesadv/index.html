@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TableData</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Table Data</h1>
+    </div>
+    <div>
+
+        <div class="form-container">
+            <form action="/data">
+                <input type="text" class="roll-input" name="roll" placeholder="Enter roll number...">
+                <input type="text" class="name-input" name="name" placeholder="Enter name...">
+                <input type="text" class="branch-input" name="branch" placeholder="Enter branch...">
+                <button type="submit" class="add">Submit</button>
+
+            </form>
+        </div>
+    </div>
+    <div class="table-container">
+        <table border="2">
+            <thead>
+                <tr>
+                    <th>Roll Number</th>
+                    <th>Name</th>
+                    <th>Branch</th>
+                    <th>Remove Data</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+                <tr>
+                    <td>242G1A05I2</td>
+                    <td>P.Tabrez Ahmed</td>
+                    <td>Computer Science Engineering</td>
+                    <td><button class="delete-button">Delete</button></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
