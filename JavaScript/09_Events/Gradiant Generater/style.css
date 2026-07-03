@@ -61,4 +61,5 @@ body {
     border: none;
     background-color: rgb(61, 61, 187);
     color: aliceblue;
+    cursor: pointer;
 }
