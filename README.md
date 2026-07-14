@@ -16,7 +16,8 @@ Web_Dev_Practice/
     ├── 06_Array_Callbacks/
     ├── 07_NewerFeatures/
     ├── 08_Dom/
-    └── 09_Events/
+    ├── 09_Events/
+    └── 10_Async/
 ```
 
 ## About
