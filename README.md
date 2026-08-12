@@ -41,4 +41,5 @@ This repo tracks my hands-on practice as I learn web development from scratch.
 - ✅ JavaScript - DOM
 - ✅ JavaScript - Events
 - ✅ JavaScript - Async/Await
+- ✅ JavaScript - APIs
 
